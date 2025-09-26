@@ -262,4 +262,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     console.log('Lightbox system initialized successfully');
+    
+    // Update copyright year automatically
+    updateCopyrightYear();
 });
+
+// Function to update copyright year
+function updateCopyrightYear() {
+    const currentYearElement = document.getElementById('current-year');
+    if (currentYearElement) {
+        const currentYear = new Date().getFullYear();
+        currentYearElement.textContent = currentYear;
+        console.log(`Copyright year updated to ${currentYear}`);
+    }
+}
