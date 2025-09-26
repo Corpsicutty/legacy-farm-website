@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Farm - Private 25-Acre Estate</title>
+    <meta name="description" content="Escape to our beautifully restored farmhouse estate in Geneseo, Illinois. A private 25-acre retreat perfect for family gatherings and romantic getaways.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <h1 class="logo">Legacy Farm</h1>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                    <a href="#amenities" class="nav-link">Amenities</a>
+                    <a href="#location" class="nav-link">Location</a>
+                    <a href="#contact" class="nav-link cta-button">Book Now</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="images/1.avif" alt="Legacy Farm" class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Legacy Farm</h1>
+            <p class="hero-tagline">A Private 25-Acre Estate Experience</p>
+            <p class="hero-description">Experience the perfect blend of rustic charm and modern luxury at Legacy Farm. This beautifully restored farmhouse sits on 25 private acres in Geneseo, Illinois, offering a peaceful retreat with stunning countryside views. Perfect for large groups, family reunions, or intimate getaways.</p>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">Guests</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Bedrooms</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Acres</div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Your Stay</a>
+                <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Welcome to Legacy Farm</h2>
+                <p class="about-text">Our carefully curated space honors the property's rich agricultural heritage while providing all the modern conveniences today's travelers expect. From the original hardwood floors to the restored stone foundation, every detail tells the story of generations who called this land home.</p>
+                <p class="about-text">Whether you're planning a family reunion, a romantic retreat, or a peaceful escape from city life, Legacy Farm offers the perfect backdrop for creating lasting memories in the heart of Illinois countryside.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Experience the Beauty</h2>
+            <p class="section-subtitle">Take a visual journey through our beautifully restored farmhouse and the stunning 25-acre grounds that surround it.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(0)">
+                    <img src="images/01787d8a-418f-4e7c-8f29-d5bbea7d5baf.jpg" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(1)">
+                    <img src="images/0237ed39-f28d-4337-91b2-9808bc34cda4.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(2)">
+                    <img src="images/0ff07b9d-83fd-4190-8fed-7a18ed4ac072.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(3)">
+                    <img src="images/1.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(4)">
+                    <img src="images/1de84f10-40f1-4ffd-bafb-451d61ba6a87.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(5)">
+                    <img src="images/2.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(6)">
+                    <img src="images/22c25e2f-d8b4-48f4-99f1-94921587ebfe.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(7)">
+                    <img src="images/23814001-a8eb-4ebe-8c9b-e2d6713c17c1.jpg" alt="Legacy Farm" class="gallery-image">
+                </div>
+                <div class="gallery-item" onclick="openLightbox(8)">
+                    <img src="images/27197447-3a0b-4864-873b-8e6febe08bda.avif" alt="Legacy Farm" class="gallery-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <h2 class="section-title">Modern Comforts & Amenities</h2>
+            <p class="section-subtitle">Every detail has been thoughtfully considered to ensure your stay is both comfortable and memorable.</p>
+            
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏠</div>
+                    <h3>Full Kitchen with Modern Appliances</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">📶</div>
+                    <h3>High-Speed WiFi Throughout</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🔥</div>
+                    <h3>Fireplace & Wood-Burning Stove</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🛋️</div>
+                    <h3>Spacious Living Areas</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🌲</div>
+                    <h3>Private 25-Acre Grounds</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🔥</div>
+                    <h3>Outdoor Fire Pit</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🥾</div>
+                    <h3>Hiking Trails</h3>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🌱</div>
+                    <h3>Farm-to-Table Garden</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section-title">Discover Geneseo, Illinois</h2>
+            <p class="section-subtitle">Nestled in the heart of Illinois countryside, our location offers the perfect balance of rural tranquility and convenient access to local attractions.</p>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Location Details</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Geneseo, Illinois, United States</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕐</span>
+                        <div>
+                            <h4>Check-in / Check-out</h4>
+                            <p>Check-in: 4:00 PM<br>Check-out: 11:00 AM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✅</span>
+                        <div>
+                            <h4>Cancellation Policy</h4>
+                            <p>Free cancellation for 48 hours</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nearby-attractions">
+                    <h3>Nearby Attractions</h3>
+                    <ul class="attractions-list">
+                        <li>Historic Downtown Geneseo - 8 minutes</li>
+                        <li>Hennepin Canal Parkway State Park - 15 minutes</li>
+                        <li>Quad Cities - 45 minutes</li>
+                        <li>Starved Rock State Park - 1 hour</li>
+                        <li>Peoria - 1 hour</li>
+                        <li>Chicago - 2.5 hours</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Book Your Stay</h2>
+            <p class="section-subtitle">Ready to experience the charm of Legacy Farm? Get in touch with us to check availability and make your reservation.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact on Airbnb</h3>
+                    <p>For availability, pricing, and booking inquiries, please visit our Airbnb listing.</p>
+                    <a href="https://www.airbnb.com/rooms/54257502" target="_blank" class="btn btn-primary">Contact on Airbnb</a>
+                </div>
+                
+                <div class="pricing-info">
+                    <h3>Pricing Information</h3>
+                    <div class="pricing-item">
+                        <span>Base Rate (per night)</span>
+                        <span>$450</span>
+                    </div>
+                    <div class="pricing-item">
+                        <span>Cleaning Fee</span>
+                        <span>$125</span>
+                    </div>
+                    <div class="pricing-item">
+                        <span>Service Fee</span>
+                        <span>$89</span>
+                    </div>
+                </div>
+                
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <a href="https://www.airbnb.com/rooms/54257502" target="_blank" class="btn btn-primary">View on Airbnb</a>
+                    <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Legacy Farm</h3>
+                    <p>Experience the perfect blend of rustic charm and modern luxury on our private 25-acre estate in the heart of Illinois countryside.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#amenities">Amenities</a>
+                    <a href="#location">Location</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Geneseo, Illinois</p>
+                    <a href="https://www.airbnb.com/rooms/54257502" target="_blank" class="footer-link">Contact on Airbnb</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Legacy Farm. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" onclick="previousImage()">❮</button>
+                <button class="lightbox-next" onclick="nextImage()">❯</button>
+            </div>
+            <img id="lightbox-image" src="" alt="" class="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-counter"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=11"></script>
+</body>
+</html>
