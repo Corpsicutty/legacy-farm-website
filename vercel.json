@@ -1,0 +1,11 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "legacy-farm-website",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
+
