@@ -1,0 +1,11 @@
+{
+  "name": "legacy-farm-website",
+  "version": "1.0.0",
+  "description": "Legacy Farm Stone Fort Website",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx http-server -p 8000 -o"
+  },
+  "private": true
+}
+

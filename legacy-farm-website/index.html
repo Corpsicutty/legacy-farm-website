@@ -70,7 +70,8 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -180,35 +181,35 @@
             
             <div class="amenities-grid">
                 <div class="amenity-item">
-                    <div class="amenity-icon">🏠</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">kitchen</span></div>
                     <h3>Full Kitchen with Modern Appliances</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">📶</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">wifi</span></div>
                     <h3>High-Speed WiFi Throughout</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🔥</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">fireplace</span></div>
                     <h3>Fireplace & Wood-Burning Stove</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🛋️</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">weekend</span></div>
                     <h3>Spacious Living Areas</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🌲</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">forest</span></div>
                     <h3>Private 25-Acre Grounds</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🔥</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">local_fire_department</span></div>
                     <h3>Outdoor Fire Pit</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🥾</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">hiking</span></div>
                     <h3>Hiking Trails</h3>
                 </div>
                 <div class="amenity-item">
-                    <div class="amenity-icon">🌱</div>
+                    <div class="amenity-icon"><span class="material-icons-outlined">eco</span></div>
                     <h3>Farm-to-Table Garden</h3>
                 </div>
             </div>
@@ -221,25 +222,41 @@
             <h2 class="section-title">Discover Geneseo, Illinois</h2>
             <p class="section-subtitle">Nestled in the heart of Illinois countryside, our location offers the perfect balance of rural tranquility and convenient access to local attractions.</p>
             
+            <div class="location-map-container">
+                <iframe 
+                    class="location-map"
+                    src="https://www.google.com/maps?q=41.501074,-90.264229&output=embed&zoom=15"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Legacy Farm Location - Geneseo, Illinois">
+                </iframe>
+            </div>
+            
+            <p class="location-verification-note">This listing's location is verified and the exact location will be provided after booking.</p>
+            
             <div class="location-content">
                 <div class="location-info">
                     <h3>Location Details</h3>
                     <div class="info-item">
-                        <span class="info-icon">📍</span>
+                        <span class="info-icon"><span class="material-icons-outlined">location_on</span></span>
                         <div>
                             <h4>Address</h4>
                             <p>Geneseo, Illinois, United States</p>
                         </div>
                     </div>
                     <div class="info-item">
-                        <span class="info-icon">🕐</span>
+                        <span class="info-icon"><span class="material-icons-outlined">schedule</span></span>
                         <div>
                             <h4>Check-in / Check-out</h4>
                             <p>Check-in: 4:00 PM<br>Check-out: 11:00 AM</p>
                         </div>
                     </div>
                     <div class="info-item">
-                        <span class="info-icon">✅</span>
+                        <span class="info-icon"><span class="material-icons-outlined">check_circle</span></span>
                         <div>
                             <h4>Cancellation Policy</h4>
                             <p>Free cancellation for 48 hours</p>
@@ -331,10 +348,10 @@
     <!-- Lightbox Modal -->
     <div id="lightbox" class="lightbox">
         <div class="lightbox-content">
-            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <span class="lightbox-close" onclick="closeLightbox()"><span class="material-icons-outlined">close</span></span>
             <div class="lightbox-nav">
-                <button class="lightbox-prev" onclick="previousImage()">❮</button>
-                <button class="lightbox-next" onclick="nextImage()">❯</button>
+                <button class="lightbox-prev" onclick="previousImage()"><span class="material-icons-outlined">chevron_left</span></button>
+                <button class="lightbox-next" onclick="nextImage()"><span class="material-icons-outlined">chevron_right</span></button>
             </div>
             <img id="lightbox-image" src="" alt="" class="lightbox-image">
             <div class="lightbox-info">
